@@ -22,7 +22,6 @@ export const aboutData = {
     "I'm a Front End Developer with reasonable knowledge of Back End. I can develope responsive , user interactive site with pixel perfect coding",
   paragraphTwo:
     "I'm Also a student of Bangladesh University of Engineering and Technology (BUET). Currently doing B.Sc. in Industrial and Production Engineering.",
-  paragraphThree: 'Have a look on my resume.',
   resume: 'https://drive.google.com/file/d/1XZh02RChE1sY9OxvMjW7tHAedjNXi0vr/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -92,5 +91,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
