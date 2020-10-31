@@ -2,13 +2,14 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
+import Typical from 'react-typical';
 import PortfolioContext from '../../context/context';
 import myImg from '../../images/profile1.png';
 import './Home.css';
 
 const Home = () => {
   const { hero, footer } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { title, name, cta } = hero;
   const { networks } = footer;
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -36,7 +37,12 @@ const Home = () => {
           <h1 className="hero-title mb-3">
             {title} <span className="text-color-main">{name}</span>
           </h1>
-          <h3 className="text-white display-4 mb-4 font-weight-bold">{subtitle}</h3>
+          <Typical
+            className="text-white display-5 mb-3"
+            steps={['Front End Developer', 1000, 'Front End Developer | Programmer', 500]}
+            loop={Infinity}
+            wrapper="p"
+          />
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <div className="social-links">
