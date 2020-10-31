@@ -41,13 +41,13 @@ const Home = () => {
             className="text-white h2 mb-3"
             steps={[
               'Front End',
-              1500,
+              800,
               'Front End Developer',
-              500,
+              800,
               'Front End Developer | Programmer',
-              500,
+              1200,
               'Front End Developer | Programmer | Engineering Student',
-              1000,
+              1700,
             ]}
             loop={Infinity}
             wrapper="p"
