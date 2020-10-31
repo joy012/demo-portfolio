@@ -28,7 +28,7 @@ const Contact = () => {
         </Fade>
         <section className="footer mt-5 mb-0 pb=0">
           <span className="back-to-top">
-            <Link to="hero" smooth duration={1000}>
+            <Link to="about" smooth duration={1000}>
               <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
             </Link>
           </span>
@@ -39,12 +39,15 @@ const Contact = () => {
                 return (
                   <a
                     key={id}
-                    href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                    href={url}
                     rel="noopener noreferrer"
                     target="_blank"
                     aria-label={iconName}
                   >
-                    <i className={`fa fa-${iconName || 'refresh'} fa-inverse`} />
+                    <i
+                      style={{ backgroundColor: '#03b2af', borderRadius: '50%', padding: '1rem' }}
+                      className={`fa fa-${iconName || 'refresh'} fa-inverse`}
+                    />
                   </a>
                 );
               })}

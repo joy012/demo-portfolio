@@ -1,14 +1,23 @@
+#hero{
+    border: none!important;
+    z-index: 99999!important;
+}
 .my-img{
     width: 35%!important;
+}
+.tsparticles-canvas-el{
+    height: 140%!important;
+    position: absolute;
+    width: 100%;
 }
 
 @media screen and (max-width: 767px){
     .my-img{
-        width: 45%!important;
+        width: 55%!important;
     }
 }
 @media screen and (max-width: 575px){
     .my-img{
-        width: 52%!important;
+        width: 65%!important;
     }
 }

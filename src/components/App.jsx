@@ -5,6 +5,8 @@ import About from '../AllPages/About/About';
 import Contact from '../AllPages/Contact/Contact';
 import { PortfolioProvider } from '../context/context';
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+import NavBar from './NavBar/NavBar';
+import Blog from '../AllPages/Blog/Blog';
 
 function App() {
   const [hero, setHero] = useState({});
@@ -23,9 +25,11 @@ function App() {
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
+      <NavBar />
       <Home />
       <Project />
       <About />
+      <Blog />
       <Contact />
     </PortfolioProvider>
   );

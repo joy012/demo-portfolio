@@ -14,13 +14,13 @@
 
   @include respond(tab-land) {
     height: 100%;
-    -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 90%, 0 100%);
-    clip-path: polygon(0 15vh, 100% 0, 100% 90%, 0 100%);
+    -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 15vh, 100% 0, 100% 80%, 0 100%);
   }
 
   .about-wrapper {
     @include respond(phone) {
-      padding-bottom: 5rem;
+      padding-bottom: 8rem;
     }
 
     &__image {
