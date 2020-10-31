@@ -7,7 +7,7 @@ import logo from '../../images/favicon.png';
 
 const NavBar = () => {
   return (
-    <nav id='navBar' className="navbar navbar-expand-md navbar-light navbar-dark">
+    <nav id='navBar' className="navbar navbar-expand-md navbar-light navbar-dark py-4">
       <Link className="navbar-brand" to="/">
         <img className='w-25 d-block mr-auto rounded-circle' src={logo} alt="" />
       </Link>

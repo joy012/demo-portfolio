@@ -38,14 +38,15 @@ const Home = () => {
             {title} <span className="text-color-main">{name}</span>
           </h1>
           <Typical
-            className="text-white h4 mb-3"
+            className="text-white h3 mb-3"
             steps={[
               'Front End',
               1000,
               'Front End Developer',
               1000,
               'Front End Developer | Programmer',
-              500,
+              1000,
+              'Front End Developer | Programmer | Engineering Student'
             ]}
             loop={Infinity}
             wrapper="p"
