@@ -30,6 +30,7 @@
   border-style: solid;
   border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   border-image-slice: 1;
+  margin: auto 1rem;
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {

@@ -3,10 +3,14 @@ import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
-import Title from '../Title/Title';
-import ProjectImg from '../Image/ProjectImg';
+import img1 from '../../images/project1.jpg';
+import img2 from '../../images/project2.jpg';
+import img3 from '../../images/project3.jpg';
+import './Project.css';
 
-const Projects = () => {
+const allImg = [img1, img2, img3];
+
+const Project = () => {
   const { projects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -26,13 +30,13 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
-          {projects.map((project) => {
+          <h2 className="text-center display-3 my-5 py-5 font-weight-bold">Projects</h2>
+          {projects.map((project, index) => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
-              <Row key={id}>
-                <Col lg={4} sm={12}>
+              <Row className="d-flex flex-lg-row flex-column-reverse" key={id}>
+                <Col lg={5} sm={12}>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -43,38 +47,36 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                        </p>
+                        <p>{info}</p>
                         <p className="mb-4">
-                          <strong>Technology Used: </strong>
-                          {info2 || ''}
+                          {info2.map((btnInfo) => (
+                            <span className="btn-skill btn btn-info my-2 mx-2">{btnInfo}</span>
+                          ))}
                         </p>
                       </div>
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={url}
                       >
-                        See Live
+                        Website
                       </a>
 
                       {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--hero"
                           href={repo}
                         >
-                          Source Code
+                          GitHub
                         </a>
                       )}
                     </div>
                   </Fade>
                 </Col>
-                <Col lg={8} sm={12}>
+                <Col lg={7} sm={12}>
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
@@ -84,7 +86,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={img || '#!'}
+                        href={url || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
@@ -103,7 +105,7 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
+                            <img className="rounded w-100" src={allImg[index]} alt="" />
                           </div>
                         </Tilt>
                       </a>
@@ -118,5 +120,4 @@ const Projects = () => {
     </section>
   );
 };
-
-export default Projects;
+export default Project;
