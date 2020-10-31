@@ -1,16 +1,18 @@
+/* eslint-disable react/button-has-type */
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import { Link } from 'react-scroll';
 import './NavBar.css';
+import logo from '../../images/favicon.png';
 
 const NavBar = () => {
   return (
     <nav id='navBar' className="navbar navbar-expand-md navbar-light navbar-dark">
       <Link className="navbar-brand" to="/">
-        <span className="display-4">JoY</span>
+        <img className='w-25 d-block mr-auto rounded-circle' src={logo} alt="" />
       </Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav ml-auto">
