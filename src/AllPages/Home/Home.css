@@ -7,11 +7,11 @@
 
 @media screen and (max-width: 767px){
     .my-img{
-        width: 65%!important;
+        width: 70%!important;
     }
 }
 @media screen and (max-width: 575px){
     .my-img{
-        width: 75%!important;
+        width: 80%!important;
     }
 }

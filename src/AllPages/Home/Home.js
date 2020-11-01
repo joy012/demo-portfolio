@@ -34,21 +34,12 @@ const Home = () => {
           </div>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <h1 className="hero-title mb-3">
+          <h2 className="hero-title mb-3">
             {title} <span className="text-color-main">{name}</span>
-          </h1>
+          </h2>
           <Typical
             className="text-white h2 mb-3"
-            steps={[
-              'Front End',
-              800,
-              'Front End Developer',
-              800,
-              'Front End Developer | Programmer',
-              1200,
-              'Front End Developer | Programmer | Engineering Student',
-              1700,
-            ]}
+            steps={['Front End Developer', 1000, 'Programmer', 1000, 'Engineering Student', 1000]}
             loop={Infinity}
             wrapper="p"
           />
@@ -80,11 +71,6 @@ const Home = () => {
             <span className="cta-btn cta-btn--hero">
               <Link to="https://drive.google.com/file/d/1E7M5WalMdJljc_rj_Ojl0dmvfxj7I338/view?usp=sharing">
                 {cta}
-              </Link>
-            </span>
-            <span className="cta-btn cta-btn--hero">
-              <Link to="contact" smooth duration={1000}>
-                Send Message
               </Link>
             </span>
           </p>

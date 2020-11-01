@@ -6,9 +6,10 @@ import PortfolioContext from '../../context/context';
 import img1 from '../../images/project1.jpg';
 import img2 from '../../images/project2.jpg';
 import img3 from '../../images/project3.jpg';
+import img4 from '../../images/project4.jpg';
 import './Project.css';
 
-const allImg = [img1, img2, img3];
+const allImg = [img1, img2, img3, img4];
 
 const Project = () => {
   const { projects } = useContext(PortfolioContext);
