@@ -28,7 +28,7 @@ const Contact = () => {
         </Fade>
         <section className="footer mt-5 mb-0 pb=0">
           <span className="back-to-top">
-            <Link to="about" smooth duration={1000}>
+            <Link to="#" smooth duration={1000}>
               <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
             </Link>
           </span>
