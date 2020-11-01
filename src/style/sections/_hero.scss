@@ -18,7 +18,6 @@
   background-size: cover; */
 
   @include respond(phone) {
-    padding-bottom: 8rem!important;
     padding: 0rem $default-font-size;
     padding-top: 5rem!important;
   }
