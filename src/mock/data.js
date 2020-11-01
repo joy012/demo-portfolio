@@ -109,24 +109,6 @@ export const projectsData = [
     url: 'https://panda-buddy-social.netlify.app/',
     repo: 'https://github.com/joy012/panda-buddy-social', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    title: 'Panda Buddy Social',
-    info:
-      'A react-based Front End site of dummy social media. All the posts are shown on the NewsFeed and a user can love react to those. Post related comments are also shown in the detailed post. There is also a friend suggestion page where a user can sent friend request and also delete request.',
-    info2: [
-      'React.js',
-      'Javascript',
-      'ES6',
-      'HTML',
-      'CSS',
-      'React Router',
-      'Material-UI',
-      'Netlify',
-    ],
-    url: 'https://panda-buddy-social.netlify.app/',
-    repo: 'https://github.com/joy012/panda-buddy-social', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
