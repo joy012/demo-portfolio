@@ -68,11 +68,14 @@ const Home = () => {
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-            <span className="cta-btn cta-btn-hero">
-              <Link to="https://drive.google.com/file/d/1E7M5WalMdJljc_rj_Ojl0dmvfxj7I338/view?usp=sharing">
-                { cta }
-              </Link>
-            </span>
+<a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn-hero"
+                      href='https://drive.google.com/file/d/1E7M5WalMdJljc_rj_Ojl0dmvfxj7I338/view?usp=sharing'
+                    >
+                      { cta }
+                    </a>
           </p>
         </Fade>
       </Container>
