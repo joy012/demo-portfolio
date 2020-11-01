@@ -5,7 +5,7 @@
   background: $dark-grey;
   font-weight: 400;
   color: $dark-blue-text;
-  padding: 0rem 5.6rem;
+  padding: 5rem 5.6rem;
   margin-bottom: 0;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -20,6 +20,7 @@
   @include respond(phone) {
     padding-bottom: 8rem!important;
     padding: 0rem $default-font-size;
+    padding-top: 5rem!important;
   }
 
   .hero-title {
