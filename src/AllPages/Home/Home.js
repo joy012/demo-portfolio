@@ -70,7 +70,7 @@ const Home = () => {
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="https://drive.google.com/file/d/1E7M5WalMdJljc_rj_Ojl0dmvfxj7I338/view?usp=sharing">
-                {cta}
+                { cta }
               </Link>
             </span>
           </p>
