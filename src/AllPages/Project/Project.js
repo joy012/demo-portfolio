@@ -58,7 +58,7 @@ const Project = () => {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
+                        className="cta-btn cta-btn-hero"
                         href={url}
                       >
                         Website
@@ -68,7 +68,7 @@ const Project = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn cta-btn--hero"
+                          className="cta-btn cta-btn-hero"
                           href={repo}
                         >
                           GitHub
