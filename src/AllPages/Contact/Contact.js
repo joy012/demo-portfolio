@@ -11,7 +11,7 @@ const Contact = () => {
   const { networks } = footer;
 
   return (
-    <section id="contact">
+    <section id="contact" style={{ backgroundColor: '#343a40' }}>
       <Container>
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
