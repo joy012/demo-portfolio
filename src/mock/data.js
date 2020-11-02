@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile1.jpg',
   paragraphOne:
-    "I'm a Front End Developer with reasonable knowledge of Back End. I can develope responsive , user interactive site with pixel perfect coding",
+    "I'm a Front End Developer with reasonable knowledge of Back End. I can develope responsive , user interactive site with pixel perfect coding.",
   paragraphTwo:
     "I'm Also a student of Bangladesh University of Engineering and Technology (BUET). Currently doing B.Sc. in Industrial and Production Engineering.",
   resume: 'https://drive.google.com/file/d/1E7M5WalMdJljc_rj_Ojl0dmvfxj7I338/view?usp=sharing', // if no resume, the button will not show up
@@ -95,7 +95,7 @@ export const projectsData = [
     id: nanoid(),
     title: 'Panda Buddy Social',
     info:
-      'A react-based Front End site of dummy social media. All the posts are shown on the NewsFeed and a user can love react to those. Post related comments are also shown in the detailed post. There is also a friend suggestion page where a user can sent friend request and also delete request.',
+      'A react-based Front End site of dummy social media. All the posts are shown on the NewsFeed and a user can react to those. Comments are also shown in the detailed post. There is also a friend suggestion page where a user can sent friend request and also delete request.',
     info2: [
       'React.js',
       'Javascript',
