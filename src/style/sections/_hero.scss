@@ -1,11 +1,13 @@
 #hero {
   min-height: 100vh;
-  height: 130vh;
+  height: 120vh;
   border-bottom: 0px;
   background: $dark-grey;
   font-weight: 400;
   color: $dark-blue-text;
-  padding: 5 5.6rem!important;
+  padding: 2rem 5.6rem!important;
+  display : flex;
+  align-items: center;
   margin-bottom: 0;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -19,7 +21,6 @@
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
-    padding-bottom: 35%!important;
   }
 
   .hero-title {
