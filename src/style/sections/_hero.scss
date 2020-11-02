@@ -1,6 +1,6 @@
 #hero {
   min-height: 100vh;
-  height: 100vh;
+  height: 130vh;
   border-bottom: 0px;
   background: $dark-grey;
   font-weight: 400;
@@ -21,6 +21,7 @@
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
+    height: 100vh!important;
   }
 
   .hero-title {
