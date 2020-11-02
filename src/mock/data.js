@@ -22,7 +22,7 @@ export const aboutData = {
     "I'm a Front End Developer with reasonable knowledge of Back End. I can develope responsive , user interactive site with pixel perfect coding.",
   paragraphTwo:
     "I'm Also a student of Bangladesh University of Engineering and Technology (BUET). Currently doing B.Sc. in Industrial and Production Engineering.",
-  resume: 'https://drive.google.com/file/d/1E7M5WalMdJljc_rj_Ojl0dmvfxj7I338/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://www.linkedin.com/in/zahidulislamjoy/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
