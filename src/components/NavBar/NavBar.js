@@ -6,7 +6,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 
 const NavBar = () => {
   return (
-    <Navbar expand="md" className='navbar-dark'>
+    <Navbar expand="md" className='navbar-dark fixed'>
       <Navbar.Brand>
         <h1 className="text-white display-3">JoY</h1>
       </Navbar.Brand>

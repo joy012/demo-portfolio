@@ -59,7 +59,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h3>The Web GuY</h3>
+              <h3 style={{ marginBottom: '0', backgroundColor: '#343a40' }}>The Web GuY</h3>
             </a>
           </p>
         </section>
