@@ -38,7 +38,7 @@ const Home = () => {
           </h2>
           <Typical
             className="text-white h2 mb-3"
-            steps={['Front End Developer', 1000, 'Programmer', 1000, 'Engineering Student', 1000]}
+            steps={['Front End Developer', 3000, 'Programmer', 3000, 'Engineering Student', 3000]}
             loop={Infinity}
             wrapper="p"
           />
