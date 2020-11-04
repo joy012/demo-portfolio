@@ -31,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     title: 'Creative Agency',
     info:
-      'A react-based full-stack agency app where a user can take different services on development and design. User can have service on customized design and also can give review.',
+      'Full-stack agency site where a user can take different services on development and design. User can have service on customized design and also can give review.',
     info2: [
       'React.js',
       'Javascript',
@@ -53,7 +53,7 @@ export const projectsData = [
     id: nanoid(),
     title: 'Volunteer Network',
     info:
-      'A full-stack volunteer origination site where anyone can register as a volunteer and work for the betterment of the society and country. Picking date of starting task is flexible for the volunteer.',
+      'A react-based full-stack volunteer origination site where anyone can register as a volunteer and work for the betterment of the society and country. Picking date of starting task is flexible for the volunteer.',
     info2: [
       'React.js',
       'Javascript',
@@ -95,7 +95,7 @@ export const projectsData = [
     id: nanoid(),
     title: 'Panda Buddy Social',
     info:
-      'A react-based Front End site of dummy social media. All the posts are shown on the NewsFeed and a user can react to those. Comments are also shown in the detailed post. There is also a friend suggestion page where a user can sent friend request and also delete request.',
+      'Front End site of dummy social media. All the posts are shown on the NewsFeed and a user can react to those. Comments are also shown in the detailed post. There is also a friend suggestion page where a user can sent friend request and also delete request.',
     info2: [
       'React.js',
       'Javascript',
@@ -108,6 +108,15 @@ export const projectsData = [
     ],
     url: 'https://panda-buddy-social.netlify.app/',
     repo: 'https://github.com/joy012/panda-buddy-social', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    title: 'Professor Panda',
+    info:
+      'Front End site of a online school developed by using React. Here, a student can enroll to a course. After enrolling , the details of that course will be showed in the cart section. Also any course added to cart can be deleted',
+    info2: ['React.js', 'Javascript', 'ES6', 'HTML', 'CSS', 'Bootstrap', 'Netlify'],
+    url: 'https://professor-panda.netlify.app/',
+    repo: 'https://github.com/joy012/professor-panda', // if no repo, the button will not show up
   },
 ];
 
