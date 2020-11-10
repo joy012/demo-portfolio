@@ -28,11 +28,11 @@ textarea{
 
 @media screen and (max-width:991px){
     .contactH1{
-        margin-top: 8rem!important;
+        margin-top: 9rem!important;
     }
 }
 @media screen and (max-width:576px){
     .contactH1{
-        margin-top: 11rem!important;
+        margin-top: 12rem!important;
     }
 }
