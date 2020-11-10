@@ -12,3 +12,13 @@ textarea{
 .footer{
     margin-top: 2rem!important;
 }
+.btn{
+    color: #03b2af!important;
+    border-color: #03b2af!important;
+}
+.btn:hover{
+    transition: 1s!important;
+    color: white!important;
+    border-color: #03b2af!important;
+    background-color: #03b2af!important;
+}

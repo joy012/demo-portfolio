@@ -41,7 +41,7 @@ const Contact = () => {
     <section id="contact" style={{ backgroundColor: '#343a40' }}>
       <Container>
         <Fade bottom duration={1000} delay={800} distance="30px">
-          <h1 className="display-3 text-center">Get In Touch</h1>
+          <h1 className="display-3 text-center mt-5 pt-5">Get In Touch</h1>
           <div className="row px-5 align-items-center justify-content-center">
             <div className="col-md-6 col-sm-10">
               <form onSubmit={handleSubmit}>
@@ -73,7 +73,7 @@ const Contact = () => {
                     placeholder="Your message..."
                   />
                 </div>
-                <input type="submit" className="btn btn-outline-success px-5 send" value="Send" />
+                <input type="submit" className="btn px-5 send" value="Send" />
               </form>
             </div>
           </div>
