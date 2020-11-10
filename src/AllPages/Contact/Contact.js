@@ -41,9 +41,9 @@ const Contact = () => {
     <section id="contact" style={{ backgroundColor: '#343a40' }}>
       <Container>
         <Fade bottom duration={1000} delay={800} distance="30px">
-          <h1 className="display-3 text-center mt-5 pt-5">Get In Touch</h1>
+          <h1 className="display-3 text-center contactH1">Get In Touch</h1>
           <div className="row px-5 align-items-center justify-content-center">
-            <div className="col-md-6 col-sm-10">
+            <div className="col-lg-7 col-sm-10">
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
                   <input

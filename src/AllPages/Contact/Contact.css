@@ -10,7 +10,7 @@ textarea{
     font-weight: bold;
 }
 .footer{
-    margin-top: 2rem!important;
+    margin-top: 1rem!important;
 }
 .btn{
     color: #03b2af!important;
@@ -21,4 +21,18 @@ textarea{
     color: white!important;
     border-color: #03b2af!important;
     background-color: #03b2af!important;
+}
+.contactH1{
+    margin-top: 5rem!important;
+}
+
+@media screen and (max-width:991px){
+    .contactH1{
+        margin-top: 8rem!important;
+    }
+}
+@media screen and (max-width:576px){
+    .contactH1{
+        margin-top: 11rem!important;
+    }
 }
