@@ -18,7 +18,7 @@ const NavBar = () => {
           <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#blog">Blog</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
-          <Nav.Link className="btn btn-outline-danger" href="https://drive.google.com/file/d/1E7M5WalMdJljc_rj_Ojl0dmvfxj7I338/view?usp=sharing">Resume</Nav.Link>
+          <Nav.Link className="btn btn-send" href="https://drive.google.com/file/d/1E7M5WalMdJljc_rj_Ojl0dmvfxj7I338/view?usp=sharing">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
