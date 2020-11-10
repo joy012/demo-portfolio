@@ -1,0 +1,14 @@
+input{
+    height: 4rem!important;
+    font-size: 1.4rem!important;
+}
+textarea{
+    font-size: 1.4rem!important;
+}
+.send{
+    font-size: 1.8rem!important;
+    font-weight: bold;
+}
+.footer{
+    margin-top: 2rem!important;
+}
