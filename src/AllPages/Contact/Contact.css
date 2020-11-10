@@ -12,11 +12,11 @@ textarea{
 .footer{
     margin-top: 1rem!important;
 }
-.btn{
+.btn-send{
     color: #03b2af!important;
     border-color: #03b2af!important;
 }
-.btn:hover{
+.btn-send:hover{
     transition: 1s!important;
     color: white!important;
     border-color: #03b2af!important;
