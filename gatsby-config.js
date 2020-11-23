@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: ``,
+        name: `The Web Guy`,
         short_name: ``,
         start_url: `/`,
         background_color: `#fff`,
