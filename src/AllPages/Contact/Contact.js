@@ -24,18 +24,7 @@ const Contact = () => {
     setUserInfo(updateInfo);
   };
 
-  const handleSubmit = (e) => {
-    emailjs.send('service_y71hx6t', 'template_79dy50q', userInfo).then(
-      function (response) {
-        console.log('SUCCESS!', response.status, response.text);
-      },
-      function (error) {
-        console.log('FAILED...', error);
-      }
-    );
-    e.target.reset();
-    e.preventDefault();
-  };
+  
 
   return (
     <section id="contact" style={{ backgroundColor: '#343a40' }}>
